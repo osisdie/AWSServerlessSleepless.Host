@@ -1,6 +1,6 @@
 ### serverless_for_fun
 ---
-Try easily create a lambda serverless WebAPI WITHOUT SLEEP. I've try lots of way to awke this lambda function after distributing to AWS while still `sleeps very well` now. So share to those developers who are also interested in awaking aws lambda serverless WebAPI.
+Try easily create a lambda serverless WebAPI WITHOUT SLEEP. I've try lots of way to awake this lambda function after distributing to AWS while still *sleeps very well* now. So share to those developers who are also interested in awaking aws lambda serverless WebAPI.
 
 *series of *code_for_fun* *
 
@@ -91,26 +91,6 @@ You can easily create a new awaker, some hints are here:
 
  * Project reference awaker's assembly in `ServerlessSleepless.Host` main project and passes its assemly name as `SelfAwakeService`'s 2nd array parameter. 
 
-config.json
-```sh
-"seo": {
-    "rules": {
-      "rule101": {
-        "ruleFor": [
-          {
-            "pattern": "seo:pattern:existsAttrVal",
-            "fn": "checkShouldExist",
-            "root": "head",
-            "tag": "meta",
-            "attr": "name",
-            "value": "robots",
-            "min": 1,
-            "max": 1
-          }
-        ]
-      }
-    }
-  }
 ```
 
 *Enjoy this **serverless_for_fun** project*
