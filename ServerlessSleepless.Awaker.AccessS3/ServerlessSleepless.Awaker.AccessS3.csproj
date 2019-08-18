@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.3.31.19" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerlessSleepless.Awaker.Abstraction\ServerlessSleepless.Awaker.Abstraction.csproj" />
+    <ProjectReference Include="..\ServerlessSleepless.Awaker.Common\ServerlessSleepless.Awaker.Common.csproj" />
+  </ItemGroup>  
+
+</Project>
